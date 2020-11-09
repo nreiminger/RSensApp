@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UUID_BLE_1_Sub" translatable="false">00002902-0000-1000-8000-00805f9b34fb</string>
+    <string name="UUID_BLE_1_Charac" translatable="false">0000dfb1-0000-1000-8000-00805f9b34fb</string>
+
+</resources>

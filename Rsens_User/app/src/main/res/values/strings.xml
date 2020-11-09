@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name" translatable="false">RSens</string>
+    <string name="ble_not_supported">BLE est supporte</string>
+    <string name="label_data">Date:</string>
+    <string name="label_heure">Heure:</string>
+    <string name="label_lat">Lat:</string>
+    <string name="label_long">Long:</string>
+    <string name="label_pm">PM10</string>
+    <string name="label_device_address">Adresse de l\'appareil:</string>
+    <string name="label_state">Etat:</string>
+    <string name="no_data">Pas de donnee</string>
+    <string name="connected">Connecte</string>
+    <string name="disconnected">Deconnecte</string>
+    <string name="title_devices">Recherche d\'appareil</string>
+    <string name="error_bluetooth_not_supported">Bluetooth est pas supporte</string>
+
+    <string name="dialog_text">Voullez vous recevoir les valeurs de la pollution par notification ?</string>
+    <string name="dialog_text_40pm">Tout le temps ou seulement au dessus de la valeur de 40ug/m3 (valeur limite réglementaire) ?</string>
+
+    <string name="unknown_device">Appareil inconnu</string>
+    <string name="unknown_characteristic">\"Characteristic\" inconnu</string>
+    <string name="unknown_service">\"Service\" inconnu</string>
+    <string name="unknown_val">Non disponible</string>
+
+    <string name="info_nMDP">Nouveau mot de passe :</string>
+    <string name="info_vMDP">Vérification mot de passe :</string>
+    <string name="info_notifOn">Notification de la pollution :</string>
+    <string name="info_notifPM">Notification au dessus de 40ug/m3 :</string>
+    <string name="info_okMDP">Mot de passe changé.</string>
+    <string name="info_errMDP">Rentrer un mot de passe identique.</string>
+    <string name="info_choose">Vous avez choisi : Francais</string>
+
+    <string name="annuler">Annuler</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="quitter">Quitter</string>
+    <string name="connexion">Connexion</string>
+    <string name="login">Login</string>
+    <string name="mdp">MDP</string>
+    <string name="data_ok">Donnée enregistrée</string>
+    <string name="data_err">Erreur de connexion</string>
+    <string name="ACCESS_COARSE_LOCATION">Permission non-accordé</string>
+    <string name="ACCESS_FINE_LOCATION">Permission non-accordé</string>
+
+    <string name="connected_3j">Données des 3 jours</string>
+    <string name="connected_tj">Tous les jours</string>
+
+    <string name="device_temp">Température :</string>
+    <string name="device_humid">Humidité :</string>
+    <string name="device_data">  Voir les données  </string>
+    <string name="device_probleme">Une erreur est survenue. Merci de redemarrer le capteur et l\'application.</string>
+    <string name="device_oui">J\'ai redémarré mon capteur</string>
+    <string name="device_non">Fermer l\'application</string>
+    <string name="device_ok">Oui</string>
+    <string name="device_cancel">Non</string>
+
+    <string name="search_device">Recherche du capteur</string>
+
+    <string name="pull_noCapteur">Pas de capteur associé</string>
+
+
+    <!-- Menu items -->
+    <string name="menu_sync">Sync</string>
+    <string name="menu_abo">Abonnement</string>
+    <string name="menu_connect">Connexion</string>
+    <string name="menu_disconnect">Deconnexion</string>
+    <string name="menu_notifon" translatable="false">Notif ON</string>
+    <string name="menu_notifoff" translatable="false">Notif OFF</string>
+    <string name="menu_scan" translatable="false">Scan</string>
+    <string name="menu_stop" translatable="false">Stop</string>
+    <string name="menu_info">Compte</string>
+
+    <!-- Color en string -->
+    <string name="pm_tb">#3db48e</string>
+    <string name="pm_b">#5dca5f</string>
+    <string name="pm_m">#99e600</string>
+    <string name="pm_me">#ffff00</string>
+    <string name="pm_ma">#ff5f00</string>
+    <string name="pm_tm">#dc0000</string>
+
+    <!-- langage en string -->
+    <string-array name="languages_array">
+        <item>Choisissez une langue</item>
+        <item>Francais</item>
+        <item>English</item>
+    </string-array>
+
+
+</resources>

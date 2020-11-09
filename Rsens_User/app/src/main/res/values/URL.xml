@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="URL_days" translatable="false">http://rsens.fr/mobile/get_days3.php</string>
+    <string name="URL_data" translatable="false">http://rsens.fr/mobile/get_day_datas3.php</string>
+    <string name="URL_img" translatable="false">http://rsens.fr/resources/RSens_</string>
+    <string name="URL_base" translatable="false">http://rsens.fr/create_donnee5.php</string>
+    <string name="URL_user" translatable="false">http://rsens.fr/mobile/get_user.php</string>
+    <string name="URL_mdp" translatable="false">http://rsens.fr/mobile/modify_mdp.php</string>
+    <string name="URL_capteur" translatable="false">http://rsens.fr/mobile/get_capteurs.php?login=</string>
+    <string name="URL_weather" translatable="false">http://api.openweathermap.org/data/2.5/find?q=Strasbourg,fr</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBar">#0CB9C4</color>
+    <color name="colorWeather">#C8C8C8</color>
+    <color name="pm_tb">#3db48e</color>
+    <color name="pm_b">#5dca5f</color>
+    <color name="pm_m">#99e600</color>
+    <color name="pm_me">#ffff00</color>
+    <color name="pm_ma">#ff5f00</color>
+    <color name="pm_tm">#dc0000</color>
+</resources>

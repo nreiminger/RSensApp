@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_layout_marginStart">40dp</dimen>
+    <dimen name="size_layout_marginLeft">60dp</dimen>
+    <dimen name="size_layout_marginTop">60dp</dimen>
+    <dimen name="size_layout_marginEnd">40dp</dimen>
+    <dimen name="size_layout_marginRight">60dp</dimen>
+    <dimen name="size_layout_marginBottom">40dp</dimen>
+
+</resources>

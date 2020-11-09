@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="572dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/llt_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/txw_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txw_mdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mdp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edt_mdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <GridLayout
+                android:id="@+id/glt_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:gravity="center"
+                android:rowCount="1"
+                android:useDefaultMargins="true">
+
+                <Button
+                    android:id="@+id/btn_quitter"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="#DD4B39"
+                    android:text="@string/quitter"
+                    android:textColor="#FFFFFF" />
+
+
+                <Button
+                    android:id="@+id/btn_connexion"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="#0CB9C4"
+                    android:text="@string/connexion"
+                    android:textColor="#FFFFFF" />
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="257dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:baselineAlignBottom="true"
+            android:src="@mipmap/airetd1_200_74" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

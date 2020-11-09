@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_nMDP">New password :</string>
+    <string name="info_vMDP">Password verification :</string>
+    <string name="ble_not_supported">BLE is supported</string>
+    <string name="label_data">Date:</string>
+    <string name="label_heure">Hour:</string>
+    <string name="label_lat">Lat:</string>
+    <string name="label_long">Long:</string>
+    <string name="label_pm">PM10</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No Data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth is not supported</string>
+    <string name="dialog_text">Do you want to receive notifications for the pollution ?</string>
+    <string name="dialog_text_40pm">Everytime or only when the pollution is higher than 40 ug/m3 (limit value)</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="unknown_val">NaN</string>
+    <string name="info_notifOn">Notification of the pollution :</string>
+    <string name="info_notifPM">Notification only when higher than 40ug/m3 :</string>
+    <string name="info_okMDP">Password changed.</string>
+    <string name="info_errMDP">Enter password that are identical.</string>
+    <string name="info_choose">You choose : English</string>
+    <string name="annuler">Cancel</string>
+    <string name="sauvegarder">Save</string>
+    <string name="quitter">Exit</string>
+    <string name="connexion">Connection</string>
+    <string name="login">Login</string>
+    <string name="mdp">Password</string>
+    <string name="data_ok">Data saved</string>
+    <string name="data_err">Error Connection</string>
+    <string name="ACCESS_COARSE_LOCATION">Permission is not granted</string>
+    <string name="ACCESS_FINE_LOCATION">Permission is not granted</string>
+    <string name="connected_3j">Data from last 3 days</string>
+    <string name="connected_tj">All days data</string>
+    <string name="device_temp">Temperature :</string>
+    <string name="device_humid">Humidity :</string>
+    <string name="device_data">"  See the data  "</string>
+    <string name="search_device">Searching for the sensor</string>
+    <string name="pull_noCapteur">No sensor associated</string>
+    <string name="menu_sync">Sync</string>
+    <string name="menu_abo">Subscribe</string>
+    <string name="menu_connect">Connection</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_info">Account</string>
+    <string name="device_probleme">An error has occurred. Please restart the sensor and the application.</string>
+    <string name="device_oui">My sensor is restarted</string>
+    <string name="device_non">Close the application</string>
+    <string name="device_cancel">Cancel</string>
+    <string name="device_ok">Ok</string>
+    <string name="deconnexion">Sign out</string>
+
+
+
+    <!-- langage en string -->
+    <string-array name="languages_array">
+        <item>Select a language</item>
+        <item>Francais</item>
+        <item>English</item>
+    </string-array>
+</resources>
